@@ -8,7 +8,7 @@ namespace TrialA_API.Repositories.Implementations
 {
     public class JobRepository : GenericRepository<Job>, IJobRepository
     {
-        //saifalaa
+        //saifalaasayedalaa
         private readonly AppDbContext _context;
         public JobRepository(AppDbContext context) : base(context)
         {
